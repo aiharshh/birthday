@@ -26,7 +26,7 @@ document.getElementById('balloonBtn').addEventListener('click', function() {
     }, 5000);
 
     // Start slideshow
-    let images = ["assets/images/img1.jpg", "assets/images/img2.jpg", "assets/images/img3.jpg"];
+    let images = ["assets/images/img1.jpg", "assets/images/img2.jpg"];
     let index = 0;
     let imgElement = document.getElementById("slideshow-img");
 
