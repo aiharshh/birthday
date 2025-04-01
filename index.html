@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0"></script>
+</head>
+<body>
+    <!-- First Screen: Click for a Surprise -->
+    <div id="start-screen" class="container">
+        <button id="startBtn">Click for a Surprise!</button>
+    </div>
+    
+    <!-- Second Screen: Happy Birthday Message -->
+    <div id="birthday-screen" class="container hidden">
+        <h1>🎉 Happy Birthday, Kathyayini! 🎂</h1>
+        <p class="message">Wishing you all the happiness in the world on your special day! 🎈</p>
+        <button id="balloonBtn">🎈</button>
+    </div>
+
+    <!-- Fireworks Effect -->
+    <div id="fireworks-container" class="hidden"></div>
+
+    <!-- Slideshow of Memories -->
+    <div id="slideshow" class="hidden">
+        <img id="slideshow-img" src="assets/images/img1.jpg" alt="Memories" >
+    </div>
+    
+    <!-- Background Music -->
+    <audio id="bg-music" src="assets/music/happy-birthday.mp3" loop></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
